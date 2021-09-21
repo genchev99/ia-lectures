@@ -1,4 +1,4 @@
-## Introduction week 🏖️
+# Introduction week 🏖️
 
 The main goal of this week will be to meet with each other and answer some open questions about the course. 
 Learn more about the material that we are going to cover, about the environment and how to pass successfully ✔😉️.
