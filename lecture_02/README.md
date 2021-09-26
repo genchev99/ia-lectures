@@ -125,7 +125,7 @@ We'll call a number (integer) `weird` if:
 - the number is `even`
 - the number is in the inclusive range of `16` to `32`
 - the number is in the inclusive range of `64` to `128`
-- the number is `dividable` by `8`
+- the number is `dividable` by `5`
 
 Given an integer `n` from the standard input print `Weird` if it's (`n`) weird. Otherwise, print `Not Weird`.
 
@@ -203,7 +203,7 @@ Given two integers `x` and `y` from the standard input perform the following ari
 >
 > 81
 >
-> 273
+> 729
 
 ---
 
