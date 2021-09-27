@@ -217,33 +217,178 @@ for x in range(10):
     print(x)
 ```
 
-## Functions
+## Exercise
 
-In Python a function is defined using the `def` keyword.
+### Problem 01
 
-```python
-def my_function():
-    print("Hello from a function")
-```
-
-To call a function, use the function name followed by parenthesis.
+`Sum` of a list. Given this list of numbers:
 
 ```python
-def my_function():
-    print("Hello from a function")
-
-
-my_function()
+numbers = [80, 23, 78, 56, 14, 73, 4, 46, 79, 9, 55, 84, 65, 20, 27]
 ```
 
-Information can be passed into functions as arguments. Arguments are specified after the function name, inside the
-parentheses. You can add as many arguments as you want, just separate them with a comma.
+Write a python program that will calculate their `sum`.
+
+###### Expected output
+
+> 713
+
+---
+
+### Problem 02
+
+`Average` of a list. Given this list of numbers:
 
 ```python
-def my_function(first_name, last_name):
-    print(first_name + " " + last_name)
-
-
-my_function("Ivan", "Ivanov")
+numbers = [3, 56, 97, 43, 25, 72, 74, 40, 82, 84, 24, 51, 28, 87, 81]
 ```
 
+Write a python program that will calculate the `average (mean)`.
+
+###### Expected output
+
+> 56.46666666666667
+
+---
+
+### Problem 03
+
+`Min` and `Max` in a list. Given this list of numbers:
+
+```python
+numbers = [18, 32, 72, 100, 7, 74, 17, 45, 42, 66, 86, 79, 23, 54, 35]
+```
+
+Write a python program that will find the `max` and `min` numbers in that list.
+
+###### Expected output
+
+> Max: 100
+>
+> Min: 7
+
+---
+
+### Problem 04
+
+Find the `second biggest` number. Given this list of numbers:
+
+```python
+numbers = [13, 17, 85, 49, 66, 25, 46, 65, 4, 23, 3, 71, 44, 12, 50, 62, 33, 82, 47, 36]
+```
+
+Write a python program that will find the `second biggest` number in that list.
+
+###### Expected output
+
+> 82
+
+---
+
+### Problem 05
+
+Find if list contains a `given` numbers. Given this list of numbers, and a number to look for:
+
+```python
+numbers = [68, 65, 30, 87, 21, 17, 96, 70, 64, 34, 14, 90, 86, 31, 29, 40, 59, 23, 25, 95, 60, 85, 42, 37, 57, 18, 27,
+           77, 36, 75, 4, 5, 38, 63, 76, 81, 53, 24, 62, 98, 83, 55, 67, 1, 7, 92, 8, 51, 52, 61, 3, 56, 97, 12, 71, 20,
+           16, 26, 50, 10, 73, 89, 88, 49, 28, 100, 13, 47, 69]
+number = 42
+```
+
+Write a python program that will print: `Number found` if the `number` is in the `numbers` list. Otherwise,
+print: `Not found...`
+
+###### Expected output
+
+> Number found
+
+---
+
+### Problem 06
+
+Find if a list has `duplicated` numbers. Given these lists of numbers:
+
+```python
+numbers_01 = [13, 17, 85, 49, 66, 25, 46, 65, 4, 23, 3, 71, 44, 12, 50, 62, 33, 82, 47, 36]
+numbers_02 = [89, 75, 78, 84, 27, 82, 63, 72, 6, 41, 77, 35, 92, 90, 8, 72, 21, 74, 48, 97, 42, 28, 45, 84, 22, 63, 4,
+              74, 6, 70, 13, 30]
+numbers_03 = [54, 32, 37, 35, 66, 48, 15, 27, 48, 82, 38, 96, 58, 95, 13, 64, 67, 58, 94, 90, 10, 11, 36, 29, 36, 25,
+              20, 94, 25, 74, 42, 30, 74, 52, 12, 39, 70, 30, 14, 91, 92, 55, 11, 6, 55, 36, 92, 84, 11, 90, 76, 11, 18,
+              32, 1, 16, 73, 66, 21, 86, 49, 53, 33, 25]
+numbers_04 = [68, 65, 30, 87, 21, 17, 96, 70, 64, 34, 14, 90, 86, 31, 29, 40, 59, 23, 25, 95, 60, 85, 42, 37, 57, 18,
+              27, 77, 36, 75, 4, 5, 38, 63, 76, 81, 53, 24, 62, 98, 83, 55, 67, 1, 7, 92, 8, 51, 52, 61, 3, 56, 97, 12,
+              71, 20, 16, 26, 50, 10, 73, 89, 88, 49, 28, 100, 13, 47, 15]
+```
+
+Write a python program that will print: `Duplicates found` for each of these lists if any of the numbers can be found
+twice or more in the same list. Otherwise, print: `The list is free of duplicates`
+
+###### Expected output
+
+> List #1: The list is free of duplicates
+>
+> List #2: The list is free of duplicates
+>
+> List #3: Duplicates found
+>
+> List #4: The list is free of duplicates
+
+---
+
+### Problem 07
+
+Find if a string contains a `character`. Given this `string` and the `character` to look for:
+
+```python
+string = "the quick brown fox jumps over the lazy dog"
+character = "q"
+```
+
+Write a python program that will print: `Character found` if the `character` is in the `string`. Otherwise,
+print: `Not found...`
+
+###### Expected output
+
+> Character found
+
+---
+
+### Problem 08
+
+Find if a string contains a `substring`. Given this `string` and the `substring` to look for:
+
+```python
+string = "the quick brown fox jumps over the lazy dog"
+substring = "brown fox"
+```
+
+Write a python program that will print: `Substring found` if the `substring` is in the prime `string`. Otherwise,
+print: `Not found...`
+
+###### Expected output
+
+> Substring found
+
+---
+
+### Problem 09
+
+Check for `Balanced Brackets` in a `string`
+> example for balanced : "(b * b) - (4 * a * c)"
+>
+> example for not balanced : "b) * b)"
+
+```python
+string_01 = "Thi(s is) (a very annoy)ing ((se(n)tence)) with some (brackets)"
+string_02 = "This i(s a v)ery ann)oy(ing sentence w((i)th so)me (b(r(a(c(k(e(t(s))))))))"
+```
+
+Write a python program that will print for each strings (01 and 02): `Balanced brackets` if the brackets in the string
+are well-balanced. Otherwise, print: `Not balanced brackets`.
+
+###### Expected output
+
+> String #1: Balanced brackets
+>
+> String #2: Not balanced brackets
