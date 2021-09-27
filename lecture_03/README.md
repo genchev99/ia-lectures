@@ -3,9 +3,8 @@
 ## Table of contents 📜
 
 - The main goal of this (and maybe the following) week
-- [Lists (arrays)](#lists-arrays)
+- [Lists (arrays)](#lists-_arrays_)
 - [Loops](#loops)
-- [Functions](#functions)
 
 ## Lists (_arrays_)
 
