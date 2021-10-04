@@ -245,7 +245,6 @@ number_to_remove = 3
 
 > [1, 2, 4, 5, 3, 6, 3]
 
-
 ---
 
 ### Problem 14
@@ -276,7 +275,7 @@ numbers = [1, 2, 3, 4, 7, 0, 8, 4]
 > [0, 1, 2, 3, 4, 4, 7, 8]
 ---
 
-### Problem 15
+### Problem 16
 
 Write a program that reads from the console an integer n and draws a rectangle with size n with two asterisks is its
 center as in the examples below.
