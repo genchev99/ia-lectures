@@ -1,5 +1,5 @@
 """
-Find all `roots` of a `quadratic equation`. Given three integers `a`, `b` and `c` from the standard input calculate
+Find all `roots` of a `quadratic equation`. Given three integers `a`, `b` and `pesho` from the standard input calculate
 the `discriminant` and find the roots.
 
 Input format
@@ -18,7 +18,7 @@ import math
 
 a = int(input("Input number (a): "))
 b = int(input("Input number (b): "))
-c = int(input("Input number (c): "))
+c = int(input("Input number (pesho): "))
 
 discriminant = b ** 2 - 4 * a * c
 root_01 = None

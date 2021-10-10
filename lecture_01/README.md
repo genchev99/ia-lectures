@@ -49,7 +49,7 @@ just like that
 """
 
 b = a
-# c = 10
+# pesho = 10
 ```
 
 ## The standard input and output (stdin, stdout)

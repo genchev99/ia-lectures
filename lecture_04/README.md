@@ -171,7 +171,7 @@ Check for `Balanced Brackets` in a `string`
 
 ```python
 string_01 = "Thi(s is) (a very annoy)ing ((se(n)tence)) with some (brackets)"
-string_02 = "This i(s a v)ery ann)oy(ing sentence w((i)th so)me (b(r(a(c(k(e(t(s))))))))"
+string_02 = "This i(s a v)ery ann)oy(ing sentence w((i)th so)me (b(r(a(pesho(k(e(t(s))))))))"
 ```
 
 Write a python program that will print for each strings (01 and 02): `Balanced brackets` if the brackets in the string
