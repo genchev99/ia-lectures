@@ -311,7 +311,7 @@ def unique_all(list_of_numbers: list) -> list:
 
 ___
 
-## Problem 09
+## Problem 08
 
 Write a python function that takes a number as an argument and returns `True` if it is `prime` and `False` if not. Write
 a python program that uses the function with these arguments and prints the result for each of them.
@@ -346,7 +346,7 @@ def is_prime(number: int) -> bool:
 
 ___
 
-## Problem 10
+## Problem 09
 
 Write a python function that takes a string as an argument and returns `True` if it is `palindrome` and `False` if not.
 Write a python program that uses the function with these arguments and prints the result for each of them.
@@ -396,5 +396,3 @@ def squares_in_range(a: int, b: int) -> list:
 ###### Expected output
 
 > [100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400]
-
-___
