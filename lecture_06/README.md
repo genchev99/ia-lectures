@@ -9,10 +9,10 @@
 
 #### The basics
 
-- A function is a block of code which only runs when it's called
-- Functions can take data in the form of arguments
-- Functions can return data
-- In python a function is defined using the `def` keyword
+- A `function` is a `block of code` which only runs when it's called
+- `Functions` can take data in the form of `arguments`
+- `Functions` can `return` data
+- In python a `function` is defined using the `def` keyword
 
 ```python
 def function_name(argument_identifier, other_argument_identifier):
@@ -26,6 +26,8 @@ function_name(20, 30)
 ```
 
 #### How to use arguments
+
+`Arguments` have a name, and a type
 
 ```python
 def greet(name):
@@ -52,7 +54,7 @@ greet_by_full_name("Ivan", "Dimitrov")
 
 #### Default arguments
 
-If you call a function without an argument it will use the default value
+If you call a `function` without an argument it will use the `default value`
 
 ```python
 def repeat(string_to_repeat, times=1):
@@ -76,7 +78,7 @@ def addition(x, y):
 print("5 + 10 = ", addition(5, 10))
 ```
 
-You can return the value of a variable defined inside the function
+You can `return` the `value` of a `variable` defined inside the function
 
 ```python
 def addition(x, y):
@@ -96,6 +98,23 @@ def no_return_example(x, y):
 
 
 print("Is result equal to None?: ", no_return_example(10, 20) is None)
+```
+
+#### Functions can call other functions
+
+A lot of the times we'll define a bunch of functions that are going to be chained and used all together.
+
+```python
+def my_addition(x, y):
+    return x + y
+
+
+def my_sum(numbers):
+    s = 0
+    for number in numbers:
+        s = my_addition(s, number)
+
+    return s
 ```
 
 #### Keyword arguments and type hinting
