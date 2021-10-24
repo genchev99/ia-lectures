@@ -97,3 +97,95 @@ class Student(Person):
     def get_id(self):
         return self.id
 ```
+
+
+## Forms of inheritance
+
+### Single inheritance 
+
+This is the most simple form of inheritance where the base (parent) class is extended only by one other class (child)
+
+```python
+class Parent:
+    def p1(self):
+        print("p1")
+
+class Child(Parent):
+    def c1(self):
+        print("c1")
+
+c = Child()
+c.p1()
+c.c1()
+```
+
+### Multiple inheritance 
+
+The inheritance is of type `multiple` when the child class is extending more than one `parent` class. 
+The `child class` has access to all parents' properties and methods.
+
+In multiple inheritance, if any of the parent classes have a method called in the same way then the child class first searches the method in its own class. If not found, then it searches in the parent classes depth_first and `left-right order`.  
+
+```python
+class Parent1:
+    def p1(self):
+        print("p1")
+        
+class Parent2:
+    def p1(self):
+        print("p2")
+        
+class Parent2:
+    def p1(self):
+        print("p2")
+
+class Child(Parent1, Parent2, Parent3):
+    def c1(self):
+        print("c1")
+
+c = Child()
+c.p1()
+c.p2()
+c.p3()
+c.c1()
+```
+
+
+### Multi-level inheritance 
+
+```python
+class Parent:
+    def p1(self):
+        print("p1")
+
+class Child1(Parent):
+    def c1(self):
+        print("c1")
+
+class Child2(Child1):
+    def c2(self):
+        print("c2")
+
+c = Child2()
+c.p1()
+c.c1()
+c.c2()
+```
+
+## Method Overriding
+
+The concept of `overriding` is very important in inheritance. 
+It gives the special ability to the child/subclasses to provide specific implementation to a method that is already present in their parent classes.
+
+````python
+class Parent:
+  def f1(self):
+    print("From parent class")
+
+class Child(Parent):
+  def f1(self):
+    print("From child class")
+
+obj = Child()
+obj.f1()
+```
