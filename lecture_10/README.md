@@ -144,13 +144,13 @@ class Parent1:
 
 
 class Parent2:
-    def p1(self):
+    def p2(self):
         print("p2")
 
 
 class Parent3:
-    def p1(self):
-        print("p2")
+    def p3(self):
+        print("p3")
 
 
 class Child(Parent1, Parent2, Parent3):
