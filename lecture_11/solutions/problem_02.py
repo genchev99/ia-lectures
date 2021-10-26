@@ -37,6 +37,9 @@ class Square(Rectangle):
         super().__init__(length, length)
 
 
+
+
+
 if __name__ == '__main__':
     shapes = [Square(10), Circle(20), Rectangle(3.4, 1.5)]
 

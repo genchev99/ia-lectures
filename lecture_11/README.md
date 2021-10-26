@@ -63,8 +63,8 @@ It defines and implements the following methods too:
    property `days_since_last_service`. It also defines the following methods:
 
 - `age(age_with=1)` - makes the bike become older - adds `age_with` (which defaults to `1`) to `days_since_last_service`
-- `service()` - restores the bike 'as new' - sets `days_since_last_service` but costs money ->
-  costs `days_since_last_service * 7` to repair.
+- `service_cost()` - the amount of money needed to service the bike `days_since_last_service * 7`
+- `service()` - restores the bike 'as new' - sets `days_since_last_service` to `0`.
 - `sell()` - sells the bike for `price - days_since_last_service * 10`
 - `is_running()` - returns `True` if the bike has been serviced in the past `10` days.
 
