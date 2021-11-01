@@ -14,3 +14,4 @@
 - [Lecture 09 - Exercise in HackerRank](lecture_09)
 - [Lecture 10 - Class Inheritance](lecture_10)
 - [Lecture 11 - Exercise on Class Inheritance](lecture_11)
+- [Lecture 12 - Class attributes](lecture_12)
