@@ -3,6 +3,7 @@
 ## Table of contents 📜
 
 - [Polymorphism](#polymorphism)
+- [Magic methods](#magic-methods)
 
 ## Polymorphism
 
