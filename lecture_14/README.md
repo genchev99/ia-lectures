@@ -107,6 +107,7 @@ class MyInteger:
 my_integer1 = MyInteger(40)
 my_integer2 = MyInteger(5)
 print(my_integer1 + my_integer2)  # >>> 45
+print(my_integer1.__add__(my_integer2))  # >>> 45
 ```
 
 #### A list of important magic methods
@@ -151,7 +152,7 @@ print(my_integer1 + my_integer2)  # >>> 45
 
 | Unary operators signature | Description  |
 |---------------------------|--------------|
-| `__pos__(self)            |  - object    |
+| `__pos__(self)`           |  + object    |
 | `__neg__(self)`           |  - object    |
 | `__abs__(self)`           |  abs(object) | 
 
