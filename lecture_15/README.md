@@ -89,9 +89,10 @@ input we can have a file that has stored words that we are going to check for ðŸ
 ```python
 def file_contains_any_keywords(keywords_path: str, search_path: str):
     with open(search_path, "r") as search_fh, open(keywords_path, "r") as keywords_fh:
+        search_data_content = search_fh.read()
         for keyword in keywords_fh.readlines():
             # Note that this time we directly use read instead of reading line by line
-            if keyword in search_fh.read():
+            if keyword in search_data_content:
                 return True
 
     return False
