@@ -25,4 +25,5 @@ if __name__ == '__main__':
 
         file_paths.append(file_path)
 
-    grep(keyword, file_paths)
+    if len(file_paths) != 0:
+        grep(keyword, file_paths)
